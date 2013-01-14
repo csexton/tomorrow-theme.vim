@@ -346,4 +346,11 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	delf <SID>grey_colour
 	delf <SID>grey_level
 	delf <SID>grey_number
+
+" A few fixes for Tomorrow-Night
+hi DiffDelete guibg=#2D1F21 guifg=#2D1F21
+hi DiffAdd guibg=#1D3F21
+hi DiffChange guibg=#1D1F41
+hi DiffText guibg=#6D1F21
+hi Normal ctermbg=none
 endif
